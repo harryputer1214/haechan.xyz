@@ -1,0 +1,11 @@
+
+
+[[redirects]]
+from = "/yt"
+to = "https://youtube.com/@정해찬"
+status = 302
+
+[[redirects]]
+from = "/daepa"
+to = "https://youtube.com/watch?v=LeGF1oAFhcs&si=3c6ifF49Jj5ichW2"
+status = 302
