@@ -7,12 +7,12 @@ status = 302
 
 [[redirects]]
 from = "/ig"
-to = "https://instagram.com/@harryputer1"
+to = "https://instagram.com/harryputer1"
 status = 302
 
 [[redirects]]
 from = "/ig2"
-to = "https://instagram.com/@_harryputer_"
+to = "https://instagram.com/_harryputer_"
 status = 302
 
 [[redirects]]
