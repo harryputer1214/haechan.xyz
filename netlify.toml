@@ -6,6 +6,16 @@ to = "https://youtube.com/@정해찬"
 status = 302
 
 [[redirects]]
+from = "/ig"
+to = "https://instagram.com/@harryputer1"
+status = 302
+
+[[redirects]]
+from = "/ig2"
+to = "https://instagram.com/@_harryputer_"
+status = 302
+
+[[redirects]]
 from = "/daepa"
 to = "https://youtube.com/watch?v=LeGF1oAFhcs&si=3c6ifF49Jj5ichW2"
 status = 302
