@@ -1,8 +1,7 @@
 [build.environment]
-  GIT_SUBMODULE_STRATEGY = "recursive"
+GIT_SUBMODULE_STRATEGY = "recursive"
 
-
-
+# 외부 링크 리다이렉트
 [[redirects]]
 from = "/yt"
 to = "https://youtube.com/@정해찬"
@@ -23,16 +22,24 @@ from = "/daepa"
 to = "https://youtube.com/watch?v=LeGF1oAFhcs&si=3c6ifF49Jj5ichW2"
 status = 302
 
-[[redirects]]
-  from = "/11quiz/*"
-  to = "/apps/11quiz/:splat"
-  status = 200
-
+# 정적 파일 예외 (🔥 중요)
 [[redirects]]
 from = "/assets/*"
 to = "/assets/:splat"
 status = 200
 
+[[redirects]]
+from = "/apps/*"
+to = "/apps/:splat"
+status = 200
+
+# 11quiz
+[[redirects]]
+from = "/11quiz/*"
+to = "/apps/11quiz/:splat"
+status = 200
+
+# SPA 메인
 [[redirects]]
 from = "/*"
 to = "/apps/main/index.html"
