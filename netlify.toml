@@ -22,7 +22,7 @@ from = "/daepa"
 to = "https://youtube.com/watch?v=LeGF1oAFhcs&si=3c6ifF49Jj5ichW2"
 status = 302
 
-# 정적 파일 예외 (🔥 중요)
+# 정적 파일 예외
 [[redirects]]
 from = "/assets/*"
 to = "/assets/:splat"
