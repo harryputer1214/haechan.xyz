@@ -24,11 +24,16 @@ to = "https://youtube.com/watch?v=LeGF1oAFhcs&si=3c6ifF49Jj5ichW2"
 status = 302
 
 [[redirects]]
-  from = "/"
-  to = "/apps/main"
-  status = 200
-
-[[redirects]]
   from = "/11quiz/*"
   to = "/apps/11quiz/:splat"
   status = 200
+
+[[redirects]]
+from = "/assets/*"
+to = "/assets/:splat"
+status = 200
+
+[[redirects]]
+from = "/*"
+to = "/apps/main/index.html"
+status = 200
