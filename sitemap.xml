@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
     <loc>https://haechan.xyz/</loc>
   </url>
-
   <url>
-    <loc>https://haechan.xyz/11quiz</loc>
+    <loc>https://haechan.xyz/11quiz/</loc>
   </url>
-
 </urlset>
