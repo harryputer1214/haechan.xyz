@@ -39,8 +39,3 @@ from = "/"
 to = "/apps/main/index.html"
 status = 200
 
-# index.html 직접 접근 대비
-[[redirects]]
-from = "/index.html"
-to = "/apps/main/index.html"
-status = 200
