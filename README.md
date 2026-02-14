@@ -21,7 +21,7 @@
 - **침대에 누울 시간**을 계산해 드립니다.
 - 수면 주기를 기준으로 6개의 시간을 제공
 
-👉 https://haechan.xyz/sleeptime-clac
+👉 https://haechan.xyz/sleeptime-calc
 
 ---
 
