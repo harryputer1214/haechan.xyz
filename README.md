@@ -47,7 +47,7 @@
 ![일일넌센스 스크린샷](screenshots/11quiz.png)
 
 - 수면 시간 계산기
-![수면 시간 계산기 스크린샷](screenshots/sleeptime-clac.png)
+![수면 시간 계산기 스크린샷](screenshots/sleeptime-calc.png)
 
 Font: Pertendard
 _마지막 README 업데이트: 20260214_
