@@ -19,9 +19,17 @@ status = 200
 from = "/11quiz/*"
 to = "/apps/11quiz/:splat"
 status = 200
+[[redirects]]
+from = "/11quiz"
+to = "/apps/11quiz/:splat"
+status = 200
 
 [[redirects]]
 from = "/sleeptime-calc/*"
+to = "/apps/sleeptime-calc/:splat"
+status = 200
+[[redirects]]
+from = "/sleeptime-calc"
 to = "/apps/sleeptime-calc/:splat"
 status = 200
 
