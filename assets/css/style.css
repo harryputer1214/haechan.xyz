@@ -1,6 +1,6 @@
   body {
     margin: 0;
-    font-family: system-ui, sans-serif;
+    font-family: 'Pretendard', system-ui, sans-serif;
     background: #c2c2ff;
     display: flex;
     align-items: flex-start;
@@ -19,11 +19,11 @@
 }
 
 
-  .logo {
-    height: 80px;
-  }
+.logo {
+  height: 80px;
+}
 
-  .card {
+.card {
   width: 75%;
   max-width: 360px;
   margin: 0 auto; 
@@ -31,24 +31,12 @@
   border-radius: 16px;
   padding: 24px;
   text-align: center;
+  align-items: center;
+  justify-content: center;
   box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 
-  .service-name{
-    font-size: 24px;
-    color: #000000;
-    margin-bottom: 24px;
-    word-break: keep-all;
-  }
-
-  .service-detail {
-    font-size: 32px;
-    margin-bottom: 36px;
-    word-break: keep-all;
-    padding: 0 8px;
-  }
-
-  .button {
+.button {
     padding: 12px 20px;
     font-size: 16px;
     border-radius: 12px;
@@ -71,3 +59,17 @@
   margin-top: 40px; 
   font-size: 14px;
 }
+
+  .service-name{
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 24px;
+    word-break: keep-all;
+  }
+
+  .service-detail {
+    font-size: 32px;
+    margin-bottom: 36px;
+    word-break: keep-all;
+    padding: 0 8px;
+  }

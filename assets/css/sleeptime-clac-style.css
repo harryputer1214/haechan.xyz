@@ -1,0 +1,22 @@
+.timeSet{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#wakeTime {
+    width: 160px;
+    font-size: 22px;
+    padding: 10px 14px;
+}
+
+.time-label{
+    font-size: 22px;
+}
+
+.sleep-title{
+    font-size: 24px;
+    margin-bottom: 24px;
+}

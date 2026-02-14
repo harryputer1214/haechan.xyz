@@ -4,6 +4,7 @@
 const quizBtn = document.getElementById("quizBtn");
 const blogBtn = document.getElementById("blogBtn");
 const homeBtn = document.getElementById("homeBtn");
+const sleepTimeBtn = document.getElementById("sleepTimeBtn");
 
 homeBtn.addEventListener("click", () => {
   window.location.href = "/";
@@ -12,6 +13,10 @@ homeBtn.addEventListener("click", () => {
 // 버튼 클릭
 quizBtn.addEventListener("click", () => {
   window.location.href = "/11quiz";
+});
+
+sleepTimeBtn.addEventListener("click", () => {
+  window.location.href = "/sleeptime-clac";
 });
 
 blogBtn.addEventListener("click", () => {
