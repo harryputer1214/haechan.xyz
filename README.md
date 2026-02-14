@@ -39,5 +39,15 @@
 
 ---
 
+### 📸 스크린샷
+- 메인 페이지
+![메인 페이지 스크린샷](screenshots/main.png)
+
+- 일일넌센스
+![일일넌센스 스크린샷](screenshots/11quiz.png)
+
+- 수면 시간 계산기
+![수면 시간 계산기 스크린샷](screenshots/sleeptime-clac.png)
+
 Font: Pertendard
-_마지막 README 업데이트: 20260212_
+_마지막 README 업데이트: 20260214_
