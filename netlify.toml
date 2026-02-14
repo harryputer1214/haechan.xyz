@@ -33,9 +33,3 @@ from = "/sleeptime-calc"
 to = "/apps/sleeptime-calc/:splat"
 status = 200
 
-# 루트만 main
-[[redirects]]
-from = "/"
-to = "/apps/main/index.html"
-status = 200
-
