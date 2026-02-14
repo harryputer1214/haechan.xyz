@@ -16,20 +16,22 @@ status = 200
 
 # 11quiz
 [[redirects]]
+from = "/11quiz"
+to = "/apps/11quiz/index.html"
+status = 200
+
+[[redirects]]
 from = "/11quiz/*"
 to = "/apps/11quiz/:splat"
 status = 200
+
+# sleeptime-calc
 [[redirects]]
-from = "/11quiz"
-to = "/apps/11quiz/:splat"
+from = "/sleeptime-calc"
+to = "/apps/sleeptime-calc/index.html"
 status = 200
 
 [[redirects]]
 from = "/sleeptime-calc/*"
 to = "/apps/sleeptime-calc/:splat"
 status = 200
-[[redirects]]
-from = "/sleeptime-calc"
-to = "/apps/sleeptime-calc/:splat"
-status = 200
-
