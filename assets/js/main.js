@@ -16,7 +16,7 @@ quizBtn.addEventListener("click", () => {
 });
 
 sleepTimeBtn.addEventListener("click", () => {
-  window.location.href = "/sleeptime-clac";
+  window.location.href = "/sleeptime-calc";
 });
 
 blogBtn.addEventListener("click", () => {
