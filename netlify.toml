@@ -20,6 +20,11 @@ from = "/11quiz/*"
 to = "/apps/11quiz/:splat"
 status = 200
 
+[[redirects]]
+from = "/sleeptime-clac/*"
+to = "/apps/sleeptime-clac/:splat"
+status = 200
+
 # 루트만 main
 [[redirects]]
 from = "/"
