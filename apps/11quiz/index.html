@@ -42,6 +42,15 @@
     <button id="homeBtn" class="button">👈 돌아가기</button> 
   </div>
 </div>
+
+<script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker
+      .register("/apps/11quiz/sw.js")
+      .then(() => console.log("Service Worker registered"))
+      .catch((error) => console.error("Service Worker registration failed:", error));
+  }
+</script>
 </body>
 
 <script src="/assets/js/11quiz.js"></script>
