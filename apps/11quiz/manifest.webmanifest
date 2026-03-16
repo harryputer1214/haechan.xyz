@@ -1,6 +1,6 @@
 {
   "name": "일일넌센스",
-  "short_name": "11quiz",
+  "short_name": "일일넌센스",
   "description": "하루에 하나씩 즐기는 넌센스 퀴즈",
   "start_url": "/apps/11quiz/",
   "scope": "/apps/11quiz/",
